@@ -39,7 +39,7 @@ buildtools_rev = '505de88083136eefd056e5ee4ca0f01fe9b33de8'
 #b3771b1935ea74c388b6fb1750e83f5d83b39dec'
 
 chromium_git = 'https://chromium.googlesource.com'
-tenta_git = 'https://github.com/tenta-browser'
+tenta_git = 'https://github.com/jjykh'
 
 # ------------------------------------------------------
 # gclient solutions.
@@ -59,8 +59,8 @@ solutions = [
 
       # Include Intel RSSDK headers and library loader for RealSense camera
       # support.
-      'src/third_party/libpxc':
-        tenta_git + '/libpxc.git@568e4ecc969b4663e82034e71d08efdd5fa77e1a',
+      #'src/third_party/libpxc':
+      #  tenta_git + '/libpxc.git@568e4ecc969b4663e82034e71d08efdd5fa77e1a',
 
       # These directories are not relevant to Crosswalk and can be safely ignored
       # in a checkout. It avoids creating additional directories outside src/ that
